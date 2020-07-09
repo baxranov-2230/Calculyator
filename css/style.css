@@ -50,6 +50,7 @@ body{
     float: left;
     font-weight: bold;
     cursor: pointer;
+    border-width: 0;
 }
 .empty{
     background: transparent;
@@ -62,3 +63,41 @@ body{
  .operator:focus, .number:focus, .empty:focus{
      outline: 0;
  }
+
+ .number{
+     background-color: aqua;
+     font-size: 20px;
+ }
+ button:nth-child(4){
+     font-size: 20px;
+     background-color: #20b2aa;
+ }
+button:nth-child(8){
+    font-size: 20px;
+    background-color: #ffa500;
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color: #f08080;
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: #7d93e0;
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color: #9477af;
+}
+
+button:nth-child(1){
+    font-size: 20px;
+    background-color: #9d99a0;
+}
+button:nth-child(2){
+    font-size: 20px;
+    background-color: #9d99a0;
+}
+button:nth-child(3){
+    font-size: 20px;
+    background-color: #9d99a0;
+}
